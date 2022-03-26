@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f3f4;
+}
+.font{
+    font-family: 'Lexend Peta', sans-serif;
+}
+.menu{
+    height: 80px;
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: contain;
+}
+.blue{
+    background-color: #0033A1;
+    color: white !important;
+
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 20px;
+}
+.subBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);;
+    background-color: white;
+}
+.icon{
+    font-size: 40px;
+    color: #0033A1;
+    padding: 20px;
+}
+.icon1{
+    font-size: 40px;
+    padding: 20px;
+}
+.subBox:hover{
+    background-color: skyblue;
+}
+.button:hover{
+    background-color: skyblue !important;
+}
+.cart:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+}
+.card{
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);;
+    margin: 5px;
+}
+.footer{
+    background-color: #0A2240;
+}

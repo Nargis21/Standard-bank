@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Bank</title>
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/53855a581b.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Poppins:wght@100;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="banner-margin navbar navbar-expand-lg navbar-light blue menu fixed-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand " href="#">
+                <img class="" src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto ">
+                    <li class="nav-item me-5">
+                        <a class="nav-link active blue" aria-current="page" href="#"><i
+                                class="fas fa-house-user p-2"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link blue" href="#about"><i class="fas fa-address-card p-2"></i> About Us</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link blue" href="login.html"><i class="fas fa-sign-in-alt p-2"></i> Login</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link blue" href="register.html"><i class="fas fa-user-plus p-2"></i> Sign Up</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link blue" href=""><i class="fas fa-search p-2"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="mb-5 h-50">
+        <section class=" mt-5 pt-4">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/bank1.jpg" class="d-block w-100 " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-black"></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bank2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bank3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main-section -->
+    <main>
+        <section class=" mx-5">
+            <h1 class="text-center text-secondary font2 ">Banking tailored to your Needs!</h1>
+            <h4 class="text-center text-secondary font p-3">how can we help you?</h4>
+            <div class="container">
+                <div class="my-5 row g-5">
+                    <div class="col-sm-6 col-lg-4 subBox">
+                        <i class="fas fa-university icon p-3"></i>
+                        <p class="text-secondary">I need Insurance</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 subBox">
+                        <i class="fas fa-handshake icon p-3"></i>
+                        <p class="text-secondary">I need a loan</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4  subBox">
+                        <i class="fas fa-truck-loading icon p-3"></i>
+                        <p class="text-secondary">I need a bank account</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4  subBox">
+                        <i class="fas fa-plane-departure icon p-3"></i>
+                        <p class="text-secondary">I need tarvel assistance</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4  subBox">
+                        <i class="fas fa-car-alt icon p-3"></i>
+                        <p class="text-secondary">I need a car</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4  subBox">
+                        <i class="fas fa-tree icon p-3"></i>
+                        <p class="text-secondary">I need to save</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" mx-5 p-5">
+            <div class="bg-primary p-5 row d-flex align-items-center justify-content-center">
+                <div class="text-white col-sm-12 col-lg-6">
+                    <h4>Ready for your next home?</h4>
+                    <p>Let us join you on your homebuing journey!</p>
+                    <button class="px-5 py-3 border-0 button rounded">Explore Now</button>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="container overflow-hidden">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="p-3 border bg-light subBox cart">
+                                    <i class="fas fa-home icon1"></i>
+                                    <p>Buy your first home</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 border bg-light subBox cart">
+                                    <i class="fas fa-building icon1"></i>
+                                    <p>Build your own house</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 border bg-light subBox cart">
+                                    <i class="fas fa-umbrella-beach icon1"></i>
+                                    <p>Ensure your home</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 border bg-light subBox cart">
+                                    <i class="fas fa-clipboard-check icon1"></i>
+                                    <p>ensure your home loan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+
+        </section>
+
+        <section class=" m-5" id="about">
+            <p class="font my-5">Manage Your Money Your Way</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0">
+
+                        <div class="card-body p-5">
+                            <h2 class="card-title">Easy ways to bank</h2>
+                            <p class="card-text text-secondary">Once you've opened your account with us.</p>
+                            <p class="card-text text-secondary"> You're free to do your banking through any channel or
+                                device. </p>
+
+                            <p class="text-primary">Online <i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">Mobile App <i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">Cellphone <i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">Telephone <i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">ATM <i class="fas fa-angle-right"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+
+                        <div class="card-body p-5">
+                            <h2 class="card-title">Quick ways to pay</h2>
+                            <p class="card-text text-secondary">Register your Standard Bank account with these fast
+                                payment apps.</p>
+                            <p class="text-primary">SnapScan<i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">Masterpass<i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">Tap to pay <i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">MyBills <i class="fas fa-angle-right"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+
+                        <div class="card-body p-5">
+                            <h2 class="card-title">Security Centre</h2>
+                            <p class="card-text text-secondary">It's important to know who to call and what to do.</p>
+                            <p class="text-primary">Keeping your card safe <i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">Protect yourself against card faurd <i
+                                    class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">We're committed to your safety <i class="fas fa-angle-right"></i>
+                            </p>
+                            <p class="text-primary">Phishing, Vishing and Smishing <i class="fas fa-angle-right"></i>
+                            </p>
+                            <p class="text-primary">How to shop safetly online<i class="fas fa-angle-right"></i></p>
+                            <p class="text-primary">Stay informed<i class="fas fa-angle-right"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="m-5 py-5">
+            <p class="font my-5">We also Offer</p>
+
+            <div class="row row-cols-1 row-cols-md-2 g-5 mx-3">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/card.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary py-3">CREDIT CARDS FOR YOUR BUSINESS</h5>
+                            <p class="card-text">Credit cards to help you manage your credit for business</p>
+                            <div class="text-center mt-5 pt-5">
+                                <button class="px-5 py-3 border-0 button rounded bg-primary text-white">Explore
+                                    Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/home.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary py-3">INSURANCE FOR YOUR BUSINESS</h5>
+                            <p class="card-text">Get advice on a wide range of short terms insurance products.Get your
+                                business back up and running when something unexpected happens.</p>
+                        </div>
+                        <div class="text-center pb-4">
+                            <button class="px-5 py-3 border-0 button rounded bg-primary text-white">Explore
+                                Now</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="m-5 py-5">
+            <div class="d-flex align-items-center">
+                <h1 class="p-5 text-secondary">Standard Bank App <i class="fas fa-arrow-right"></i> </h1>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.sbg.mobile.phone">
+                    <img class="p-3"
+                        src="https://www.standardbank.co.za/on/demandware.static/-/Library-Sites-SBSharedLibrary/default/dwb9fb00c0/common/footer/google-play-badge.svg"
+                        alt="">
+                </a>
+                <a target="_blank" href="https://apps.apple.com/za/app/standard-bank-stanbic-bank/id528239110">
+                    <img class="p-3"
+                        src="https://www.standardbank.co.za/on/demandware.static/-/Library-Sites-SBSharedLibrary/default/dwfef7a65b/common/footer/app-store-badge.svg"
+                        alt="">
+                </a>
+                <a target="_blank"
+                    href="https://appgallery.huawei.com/app/C100495013?sharePrepath=ag&locale=en_US&source=appshare&subsource=C100495013&shareTo=com.huawei.email&shareFrom=appmarket">
+                    <img class="p-3"
+                        src="https://www.standardbank.co.za/on/demandware.static/-/Library-Sites-SBSharedLibrary/default/dw7ea84499/common/footer/huawei-app-gallery.svg"
+                        alt="">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer p-5">
+        <div class="row ">
+            <p class="text-white col-sm-12 col-lg-8">Standard Bank is a licensed financial services provider in terms of
+                the Financial
+                Advisory and
+                Intermediary Services Act and a registered credit provider in terms of the National Credit Act,
+                registration number NCRCP15</p>
+            <div class="col-sm-12 col-lg-4">
+                <h3 class="text-white px-3">Get In Touch</h3>
+                <div class="d-flex align-items-center">
+                    <a target="_blank" href="https://www.linkedin.com/company/standard-bank-south-africa/"><i
+                            class="fab fa-linkedin-in p-3 text-white"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC_oz5no5MIucu45I4PO9nCQ"><i
+                            class="fab fa-youtube p-3 text-white"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/StandardBankSA/"><i
+                            class="fab fa-facebook-f p-3 text-white"></i></a>
+                    <a target="_blank" href="https://twitter.com/standardbankza"><i
+                            class="fab fa-twitter p-3 text-white"></i></a>
+                    <a target="_blank"
+                        href="https://api.whatsapp.com/send/?phone=27645700291&text=Hi%21&app_absent=0"><i
+                            class="fab fa-whatsapp p-3 text-white"></i></a>
+                </div>
+            </div>
+            <small class="text-white text-center pt-5 mt-5"> Copyright <i class="fas fa-copyright"></i> 2022
+                Nargis21.All
+                Rights
+                Reserved </small>
+
+        </div>
+    </footer>
+    <!-- Js bundle stylesheet -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
